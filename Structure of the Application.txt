@@ -1,0 +1,17 @@
+	****************** CONTACT MANAGEMENT SYSTEM **********************
+
+SRC > 
+	APP >
+		EMPLOYEES >	
+			employees -> ts|html|css
+			EMPLOYEE >
+				employee -> ts|html|css
+			EMPLOYEE-LIST >
+				employee-list -> ts|html|css
+			SHARED >
+				employee.service.ts
+				employee.model.ts
+	ENVIRONMENT >
+		environment.ts
+
+INDEX.HTML
