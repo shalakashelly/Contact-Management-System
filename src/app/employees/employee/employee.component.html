@@ -13,7 +13,7 @@
   <div class="form-group">
     <label>Email ID</label>
     <input class="form-control" name="emailId" #emailId="ngModel" [(ngModel)]="employeeService.selectedEmployee.emailId" placeholder="Email ID"
-    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+    pattern="[a-zA-Z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,4}$">
     <div class="alert alert-danger" *ngIf="emailId.touched && !emailId.valid">Enter valid Email ID</div>
   </div>
   <div class="form-group">
