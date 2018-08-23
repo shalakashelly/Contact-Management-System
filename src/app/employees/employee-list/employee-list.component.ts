@@ -31,7 +31,7 @@ export class EmployeeListComponent implements OnInit {
   onDelete(key: string) {
     if (confirm('Are you sure to delete this record ?') == true) {
       this.employeeService.deleteEmployee(key);
-      this.tostr.warning("Deleted Successfully", "Employee register");
+      this.tostr.warning("Deleted Successfully");
     }
   }
 
